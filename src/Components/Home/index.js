@@ -54,7 +54,6 @@ export default class Home extends React.Component {
                 <Tabs>
                     <Tab heading={ <TabHeading><Icon name="camera" /><Text>Camera</Text></TabHeading>}>
                         <Text> Tab 1 </Text>
-
                     </Tab>
                     <Tab heading={ <TabHeading><Text>No Icon</Text></TabHeading>}>
                         <Text> Tab 2 </Text>
@@ -84,55 +83,55 @@ export default class Home extends React.Component {
                 />
                 <Card>
                     <Card>
-           <CardItem>
-             <Left>
-               <Thumbnail source={{uri: 'Image URL'}} />
-               <Body>
-                 <Text>NativeBase</Text>
-                 <Text note>GeekyAnts</Text>
-               </Body>
-             </Left>
-           </CardItem>
-           <CardItem cardBody>
-             <Image source={{uri: 'Image URL'}} style={{height: 200, width: null, flex: 1}}/>
-           </CardItem>
-           <CardItem>
-             <Left>
-               <Button transparent>
-                 <Icon active name="thumbs-up" />
-                 <Text>12 Likes</Text>
-               </Button>
-             </Left>
-             <Body>
-               <Button transparent>
-                 <Icon active name="chatbubbles" />
-                 <Text>4 Comments</Text>
-               </Button>
-             </Body>
-             <Right>
-               <Text>11h ago</Text>
-             </Right>
-           </CardItem>
-         </Card>
+                        <CardItem>
+                            <Left>
+                                <Thumbnail source={{uri: 'Image URL'}} />
+                                <Body>
+                                    <Text>NativeBase</Text>
+                                    <Text note>GeekyAnts</Text>
+                                </Body>
+                            </Left>
+                        </CardItem>
+                        <CardItem cardBody>
+                            <Image source={{uri: 'Image URL'}} style={{height: 200, width: null, flex: 1}}/>
+                        </CardItem>
+                        <CardItem>
+                            <Left>
+                                <Button transparent>
+                                    <Icon active name="thumbs-up" />
+                                    <Text>12 Likes</Text>
+                                </Button>
+                            </Left>
+                            <Body>
+                                <Button transparent>
+                                    <Icon active name="chatbubbles" />
+                                    <Text>4 Comments</Text>
+                                </Button>
+                            </Body>
+                            <Right>
+                                <Text>11 ago</Text>
+                            </Right>
+                        </CardItem>
+                    </Card>
                 </Card>
-                <Content />
-                <Footer>
-                    <FooterTab>
-                        <Button>
-                            <Icon name="apps" />
-                        </Button>
-                        <Button>
-                            <Icon name="camera" />
-                        </Button>
-                        <Button active>
-                            <Icon active name="navigate" />
-                        </Button>
-                        <Button>
-                            <Icon name="person" />
-                        </Button>
-                    </FooterTab>
-                </Footer>
-            </Container>
+            <Content />
+            <Footer>
+                <FooterTab>
+                    <Button>
+                        <Icon name="apps" />
+                    </Button>
+                    <Button>
+                        <Icon name="camera" />
+                    </Button>
+                    <Button active>
+                        <Icon active name="navigate" />
+                    </Button>
+                    <Button>
+                        <Icon name="person" />
+                    </Button>
+                </FooterTab>
+            </Footer>
+        </Container>
         )
     }
 }

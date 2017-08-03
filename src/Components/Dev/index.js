@@ -143,17 +143,17 @@ const styles = StyleSheet.create({
         height: 100,
         width: null,
         flex: 1
-  },
-  backdropView: {
-    height: 100,
-    backgroundColor: 'rgba(0,0,0,0.4)',
-    justifyContent: 'center',
-  },
-  headline: {
-    fontSize: 20,
-    marginLeft: 10,
-    backgroundColor: 'rgba(0,0,0,0)',
-    color: 'white',
-    fontSize: 15
-  }
+    },
+    backdropView: {
+        height: 100,
+        backgroundColor: 'rgba(0,0,0,0.4)',
+        justifyContent: 'center',
+    },
+    headline: {
+        fontSize: 20,
+        marginLeft: 10,
+        backgroundColor: 'rgba(0,0,0,0)',
+        color: 'white',
+        fontSize: 15
+    }
 })
